@@ -22,13 +22,14 @@ ________________________________________
 
 ________________________________________
 # IP Addressing Table
-Device	VLAN	IP Address	Subnet Mask	Port/Interface<br>
-PC0	10	192.168.10.1	255.255.255.0	FastEthernet0/1<br>
-PC1	10	192.168.10.2	255.255.255.0	FastEthernet0/2<br>
-PC2	20	192.168.20.1	255.255.255.0	FastEthernet0/3<br>
-PC3	20	192.168.20.2	255.255.255.0	FastEthernet0/4<br>
-Router G0/0.10	10	192.168.10.254	255.255.255.0	Subinterface VLAN 10<br>
-Router G0/0.20	20	192.168.20.254	255.255.255.0	Subinterface VLAN 20<br>
+| Device | VLAN | IP Address | Subnet Mask | Port/Interface |
+| :--- | :---: | :--- | :--- | :--- |
+| PC0 | 10 | 192.168.10.1 | 255.255.255.0 | FastEthernet0/1 |
+| PC1 | 10 | 192.168.10.2 | 255.255.255.0 | FastEthernet0/2 |
+| PC2 | 20 | 192.168.20.1 | 255.255.255.0 | FastEthernet0/3 |
+| PC3 | 20 | 192.168.20.2 | 255.255.255.0 | FastEthernet0/4 |
+| Router G0/0.10 | 10 | 192.168.10.254 | 255.255.255.0 | Subinterface VLAN 10 |
+| Router G0/0.20 | 20 | 192.168.20.254 | 255.255.255.0 | Subinterface VLAN 20 |
 ________________________________________
 # Procedure
 1.	Setup devices in Packet Tracer: Place 4 PCs, 1 switch, and 1 router.<br>
@@ -101,14 +102,16 @@ ________________________________________
 
 ## PC IP settings:
 
-<img width="1917" height="835" alt="image" src="https://github.com/user-attachments/assets/ce3082ac-4aab-4aa3-86a6-7406d4791cb0" />
+<img width="1916" height="845" alt="image" src="https://github.com/user-attachments/assets/4583774a-a5f2-4135-a3df-8e56ce144532" />
 
 
 
 
-## Successful ping and Failure ping between PCs in different VLANs after routing:
+## Successful ping between PCs in different VLANs after routing:
 
-<img width="1917" height="1020" alt="image" src="https://github.com/user-attachments/assets/97b4ad9c-3b5d-4583-af79-f627cc831332" />
+<img width="1917" height="1017" alt="image" src="https://github.com/user-attachments/assets/57611467-b7bf-4881-b303-84994e12c8bf" />
+
+## Failure ping between PCs in different VLANs after routing:
 
 <img width="1917" height="1015" alt="image" src="https://github.com/user-attachments/assets/3b506d14-bb52-4fc4-b3e3-acd8c21ad3b8" />
 

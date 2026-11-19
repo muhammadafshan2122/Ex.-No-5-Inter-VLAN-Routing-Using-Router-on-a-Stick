@@ -111,7 +111,7 @@ ________________________________________
 
 <img width="1917" height="1017" alt="image" src="https://github.com/user-attachments/assets/57611467-b7bf-4881-b303-84994e12c8bf" />
 
-## Failure ping between PCs in different VLANs after routing:
+## Failure ping between PCs in different VLANs after routing (Without Gateway):
 
 <img width="1917" height="1015" alt="image" src="https://github.com/user-attachments/assets/3b506d14-bb52-4fc4-b3e3-acd8c21ad3b8" />
 
